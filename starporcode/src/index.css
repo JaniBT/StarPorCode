@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+    body{
+        @apply bg-black dark:bg-black dark:text-gray-400 text-black;
+    }
+
     .navibar{
         @apply relative font-Inter font-bold tracking-[1px] mx-5 hover:text-white;
     }
